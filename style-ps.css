@@ -1,0 +1,46 @@
+
+.instagram:active,
+.instagram:hover { 
+  
+  background-image:linear-gradient(to left, #FE0DAA,#FEC108) ;
+  border: 3px solid aliceblue;
+  
+}
+
+.face:active,
+.face:hover{
+  background-color: #0866FF;
+  border: 3px solid aliceblue;
+}
+
+.whatsapp:active,
+.whatsapp:hover{
+  background-color: #00A884;
+  border: 3px solid aliceblue;
+
+}
+
+.telefone:active,
+.telefone:hover{
+  background-color:black;
+  border: 3px solid aliceblue;
+}
+
+.isso:hover{
+  background-color: #113A8C;
+  border: 3px solid aliceblue;
+}
+.sobre:hover{
+    background-color: #113A8C;
+    border: 3px solid aliceblue;
+  }
+
+.servico:hover{
+  background-color: #113A8C;
+  border: 3px solid aliceblue;
+}
+
+.produto:hover {
+    background-color: #113A8C;
+    border: 3px solid aliceblue;
+  }

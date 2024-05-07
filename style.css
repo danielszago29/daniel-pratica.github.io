@@ -1,0 +1,218 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+  border-radius: 5px;
+}
+body{
+  background-color: #929292;
+  margin-top: 10px;
+}
+
+header{
+  height: 250px;
+  background-color: #929292;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-image: linear-gradient(to right,#113A8C,#7C92A6);
+
+}
+
+header>.contato{
+  width: 30%;
+  height: 100%;
+  margin-left: 5px;
+  
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;*/
+
+}
+
+a{
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  
+}
+
+.contato > .instagram,
+           .face,
+           .whatsapp,
+           .telefone{
+  background-color: #92929200;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  transition: all .6s ease-in;
+
+  
+
+}
+
+/*.contato > .face {
+  background-color: #929292;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+
+.contato > .whatsapp{
+  background-color: #929292;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+  .contato > .telefone{
+    background-color: #929292;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;*/
+
+
+
+header>.list{
+  width: 30%;
+  height: 100%;
+  margin-left: 5px;
+  
+}
+.list > .produto,
+        .servico,
+        .sobre,
+        .isso{
+  background-color: #92929200;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  transition: all .6s ease-in;
+
+}
+
+/*.list > .servico {
+  background-color: #929292;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+
+.list > .sobre{
+  background-color: #929292;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.list > .isso{
+  background-color: #929292;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}*/
+
+
+header>#logo{
+  font-size: 2em;
+  text-align: center;
+  background-color: aliceblue;
+  width: fit-content;
+  color: #3e3e3e;
+  padding: 5px;
+}
+h2{
+  color: #3e3e3e;
+}
+main{
+  height: fit-content;
+  width: 95%;
+  background-color: #3e3e3e;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  
+  
+  
+}
+
+.sidebar{
+  width: 25%;
+  height:100; 
+  background-color: #5c5c5c;
+  border-top: 1px solid aliceblue;
+  border-left: 1px solid aliceblue;
+  border-bottom: 1px solid aliceblue;
+}
+
+.main-list{
+  width: 75%;
+  height: 100%;
+  border: 1px solid aliceblue;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.list-item{
+  width: 95%;
+  height: 350px;
+  border: 1px solid aliceblue;
+  margin: 15px 0px;
+}
+
+.grid {
+  width: 95%;
+  height: fit-content;
+  background-color: #a9a9a9;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.grid-item{
+  width: 45%;
+  height: 300px;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+footer{
+  width: 95%;
+  height: 250px;
+  background-color: black;
+  margin: 10px auto;
+}
